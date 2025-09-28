@@ -1,0 +1,23 @@
+name: realtime_trading_app
+description: "A high-performance real-time stock trading application"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+  provider: ^6.1.5+1
+  web_socket_channel: ^3.0.3
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
